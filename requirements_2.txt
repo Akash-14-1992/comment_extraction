@@ -1,5 +1,5 @@
 instaloader
-streamlit==1.41.1
+streamlit
 torch==2.0.1 --index-url https://download.pytorch.org/whl/cpu
 transformers==4.35.0
 selenium==4.1.0
