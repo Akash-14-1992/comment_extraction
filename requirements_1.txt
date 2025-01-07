@@ -121,7 +121,7 @@ streamlit==1.41.1
 tenacity==9.0.0
 tokenizers==0.12.1
 toml==0.10.2
-torch
+torch==1.11.0+cpu
 tornado @ file:///D:/bld/tornado_1666788744359/work
 tqdm==4.62.3
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work
