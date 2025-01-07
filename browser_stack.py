@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import re
-import torch
+# import torch
 from transformers import pipeline
 from yt_dlp import YoutubeDL
 from youtube_comment_downloader import YoutubeCommentDownloader, SORT_BY_POPULAR
