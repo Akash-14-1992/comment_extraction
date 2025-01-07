@@ -1,4 +1,4 @@
-import instaloader
+# import instaloader
 import streamlit as st
 import pandas as pd
 import re
