@@ -1,3 +1,6 @@
+import instaloader
+from instaloader.structures import Post
+# from 
 import streamlit as st
 import pandas as pd
 import re
@@ -11,7 +14,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import time
-import instaloader
 
 # Cached functions
 @st.cache_resource
