@@ -1,4 +1,4 @@
-tokenizers==0.13.3
+tokenizers
 instaloader==4.14
 streamlit==1.41.1
 pandas==2.2.3
