@@ -271,7 +271,11 @@ def main():
                     results.append({
                         "Influencer Name": influencer_name,
                         "Platform/ Go Live Link": link,
-                        **engagement_data
+                        "Total Comments": engagement_data.get("Total Comments"),
+                        "Total Positive YouTube Comments": engagement_data.get("Total Positive YouTube Comments"),
+                        "Total Negative YouTube Comments": engagement_data.get("Total Negative YouTube Comments"),
+                        "Total Positive Instagram Comments": engagement_data.get("Total Positive Instagram Comments"),
+                        "Total Negative Instagram Comments" : engagement_data.get("Total Negative Instagram Comments")
                     })
 
                 result_df = pd.DataFrame(results)
